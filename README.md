@@ -1,8 +1,6 @@
-* Simple Go server 
+# Simple Go server
 
 HTTPS server that reads a cert from the current directory and returns "hello, world!" and 200 to any requests.
-
-
 
 To make a self signed cert:
 
@@ -13,7 +11,7 @@ ln -sf server.rsa.crt server.crt
 ```
 
 Build a go binary (for linux) with:
+
 ```
 GOOS=linux GOARCH=amd64 go build simpleserver.go
 ```
-
